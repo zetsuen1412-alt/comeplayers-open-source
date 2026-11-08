@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Home(){return <main className="landing"><h1>ComePlayers offline games</h1><p>Private source review: Marble, Match, procedural Strike and Alexia Arrow. No accounts or production connections. Neutral replacement artwork.</p><nav style={{display:"flex",gap:24,flexWrap:"wrap"}}>{[["monopoly","Marble"],["match","Match"],["strike","Strike"],["arrow","Alexia Arrow"]].map(([path,label])=><Link key={path} href={`/games/${path}`}>{label}</Link>)}</nav></main>;}

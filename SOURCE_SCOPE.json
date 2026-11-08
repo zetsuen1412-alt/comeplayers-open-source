@@ -1,0 +1,1197 @@
+{
+  "status": "local release candidate; not published; MIT approved for original ComePlayers code; third-party licenses retained",
+  "sourceFiles": 232,
+  "sourceBytes": 1607205,
+  "modules": {
+    "CP-BoostMonitor-Android": {
+      "files": 9,
+      "bytes": 135641
+    },
+    "CP-BoostMonitor-Windows": {
+      "files": 18,
+      "bytes": 110363
+    },
+    "EvoCP_Payroll": {
+      "files": 99,
+      "bytes": 562277
+    },
+    "comeplayers-apps": {
+      "files": 86,
+      "bytes": 549571
+    },
+    "tools": {
+      "files": 4,
+      "bytes": 17003
+    },
+    "website": {
+      "files": 2,
+      "bytes": 43914
+    },
+    "game-services": {
+      "files": 14,
+      "bytes": 188436
+    }
+  },
+  "files": [
+    {
+      "path": "source/CP-BoostMonitor-Android/app/src/main/java/id/comeplayers/boostmonitor/EmployeeDb.java",
+      "bytes": 27304,
+      "sha256": "1c225bfb68da49de9c8a029faa93335f47779bdc19b802f4ed6388509b5ae95e"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Android/app/src/main/java/id/comeplayers/boostmonitor/MainActivity.java",
+      "bytes": 66624,
+      "sha256": "1011887a5df6f770b047f7f353adb709ddf4419d10c2810e309e2acc9e944b2d"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Android/app/src/main/java/id/comeplayers/boostmonitor/MonitorAdminActivity.java",
+      "bytes": 10728,
+      "sha256": "1003f5f809662c28475b55ba4394d26f916f6757c8de73ca47e79a0d5c0ee49f"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Android/app/src/main/java/id/comeplayers/boostmonitor/MonitorContract.java",
+      "bytes": 3596,
+      "sha256": "d1820816861d922940f5ef8c266aa39f87d9271bd9abd5da1ed09bbc5c5298b3"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Android/app/src/main/java/id/comeplayers/boostmonitor/NewOrderTracker.java",
+      "bytes": 726,
+      "sha256": "f0f7767d60835c64f2a9feccc640e98d3c2b9eb37ca802627f663a2739470224"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Android/app/src/main/java/id/comeplayers/boostmonitor/OrderHomeView.java",
+      "bytes": 9462,
+      "sha256": "846649cd04280c8cb7d4d5ed6e8d4cfc3b3938983f3a595e8239e7f5c7e366e1"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Android/app/src/main/java/id/comeplayers/boostmonitor/OrderNotificationService.java",
+      "bytes": 3245,
+      "sha256": "36b86b29083f66eba5f3101568b412ceb2e772b77c88206aa09cb99ca1450ce5"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Android/app/src/main/java/id/comeplayers/boostmonitor/OrderNotifications.java",
+      "bytes": 10523,
+      "sha256": "409bfac26fb3ecb76ef3cc69fc382fee60e7ea93f0d13420d4e2702ae29bbe80"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Android/app/src/main/java/id/comeplayers/boostmonitor/SecureSession.java",
+      "bytes": 3433,
+      "sha256": "612f170b99b43dccff89e53e845a981e271d1d64e829ace5f18fb1ab1d4f1b9d"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/ArchiveOrderDialog.cs",
+      "bytes": 2741,
+      "sha256": "294b06cb64bda660577cba135306aa81b4b18df9f3643026f5792671d6800f29"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/AssemblyInfo.cs",
+      "bytes": 104,
+      "sha256": "4116b3f07c253ef7ff1ab16c175747116b4d878010a255e4118a300a722466ea"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/CompletedOrdersPanel.cs",
+      "bytes": 13182,
+      "sha256": "dc1a1ac27f7c7b9184c8c66c16d20ac6b8ff58a40269f7d77625b60a489b966d"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/DimensionalControls.cs",
+      "bytes": 8776,
+      "sha256": "daa2107bfb0e865faf2214774b9b311c605cdf077cbe308f65bb7792ad22ec7a"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/Fh3Branding.cs",
+      "bytes": 1301,
+      "sha256": "a9f63c7757f80fbea18ad1dcb2082191aaebf6f1b118b74067636fd310208122"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/LocalStatusStore.cs",
+      "bytes": 7350,
+      "sha256": "f9d2db3993d44cde3783edaf52251442275abeaed8eda74701956ebca4f80bf1"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/LuxuryControls.cs",
+      "bytes": 7907,
+      "sha256": "a4b20229cf842f3d9e157b26796fab650304b9d78b1dff2006434303f358d013"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/Models.cs",
+      "bytes": 8627,
+      "sha256": "d305b4353443e95125e8f27ed72f93116276abb7c457937a369fc9ade505e189"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/MonitorAccountDialog.cs",
+      "bytes": 4185,
+      "sha256": "5097085b8694df848f68857c3ee5f93082313a21d55ad98d5bf9d8994e1dbe31"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/MonitorWorkspacePanel.cs",
+      "bytes": 10022,
+      "sha256": "b7033e855ee737d5eef84b386b45f359f30f2ba880772cbccd92c9f8d81f1e27"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/NewOrderTracker.cs",
+      "bytes": 794,
+      "sha256": "a5648d304ff684b1077c54d712f1c19edb74c7d5e3fec920f1ebfe8257d28eec"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/OrderAlerts.cs",
+      "bytes": 3158,
+      "sha256": "e06e2744771668da5cd70094a2c3272dadf6d1dfd425ba0983c1fc3c8cb20620"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/OrderFilters.cs",
+      "bytes": 1506,
+      "sha256": "7cfd452cb273aad1c642c0d3574f3ad05e05cfb82853a8cb9d6dac3c4507231d"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/OrderNotificationToast.cs",
+      "bytes": 6402,
+      "sha256": "468dc3c47f0d252fd8c1391e6f005fbef1da3339f4b4647df33ea61d89a56521"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/Program.cs",
+      "bytes": 1339,
+      "sha256": "2ddc218a5607157e9176a4ea8296e607c0b07cdd018faa1314c01e14000da2ad"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/ProofPreviewDialog.cs",
+      "bytes": 3889,
+      "sha256": "119f041671ac38b4556cbb5a3c7ed54adad0030a80872989675fec39db1b6ff0"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/TakeOrderPanel.cs",
+      "bytes": 27709,
+      "sha256": "9f004f96aeeeea6273e1d71db3bc5ab9c839237fd9831ab15912a73781d0a858"
+    },
+    {
+      "path": "source/CP-BoostMonitor-Windows/WindowChrome.cs",
+      "bytes": 1371,
+      "sha256": "9ea6852e8d1966dca05ec12a1728b4217c9640ebb9280f096b89ead8e9bfa5db"
+    },
+    {
+      "path": "source/EvoCP_Payroll/.gitignore",
+      "bytes": 87,
+      "sha256": "858db4c2a31213a048d1c9e6bbb49be256040f6d974ccd0a95e4adb76ad0f6a5"
+    },
+    {
+      "path": "source/EvoCP_Payroll/RUN_ME_FIRST.bat",
+      "bytes": 813,
+      "sha256": "a512d7b820b9910cbc426fa532c33e5df8d884eab49e6c2ed08f106495ceec66"
+    },
+    {
+      "path": "source/EvoCP_Payroll/RUN_TESTS.bat",
+      "bytes": 368,
+      "sha256": "2893a363b79b2671d3c98d3937951074923acd540b0ccd656ae4a3811293363a"
+    },
+    {
+      "path": "source/EvoCP_Payroll/next-env.d.ts",
+      "bytes": 262,
+      "sha256": "85ae5aee75f011967cf2d25cbc342f62d69314e9d925f7f4aa3456fc2cffcca6"
+    },
+    {
+      "path": "source/EvoCP_Payroll/next.config.mjs",
+      "bytes": 144,
+      "sha256": "477b6db4cf2a6f6348e5886612c21969aa2ac475b14f97d35a485edec6488251"
+    },
+    {
+      "path": "source/EvoCP_Payroll/package-lock.json",
+      "bytes": 132646,
+      "sha256": "c63bcbe5f3515f562c2aaaff54b667cb8e2cc7fd52b275f75443ce5e7c7301e2"
+    },
+    {
+      "path": "source/EvoCP_Payroll/package.json",
+      "bytes": 829,
+      "sha256": "9dd9b3e21bb9b8427875626758829fbf9b78b7e8cb1938c285338973ead07078"
+    },
+    {
+      "path": "source/EvoCP_Payroll/postcss.config.mjs",
+      "bytes": 81,
+      "sha256": "e32657baf631d7c5f4dc67b4b2ee0ec8e7d5b3c41860e09cddce7c0377cd80bc"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/advances/page.tsx",
+      "bytes": 322,
+      "sha256": "938baa4474a0e71dcb9ab2effd3382c36f60cfd4110e6b928bd1f01964620746"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/ai/page.tsx",
+      "bytes": 349,
+      "sha256": "d1ed8ef3e4f648b63762d85a485d58e15e19101cd62d0aad3d165f5058eeabae"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/control-center/page.tsx",
+      "bytes": 4741,
+      "sha256": "097ce04f2c341d78d9da7bd9290c55c1b305739c3f14b59e9ab9ee3707662f01"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/employees/page.tsx",
+      "bytes": 409,
+      "sha256": "993daf84aa69947fb6366367a2f79786fc080e5f9891027f858de2e91411d7b7"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/export/page.tsx",
+      "bytes": 5294,
+      "sha256": "5603e79e2c4524b4042e58ef0779fe9096a37e66cfbb729030a740a29cb38c09"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/finance/closing/page.tsx",
+      "bytes": 389,
+      "sha256": "cf1d7af7e80eb6854e6dbd2a0f65e8dd2b24cd91dffa3c92ba3259cec983b68b"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/finance/issues/page.tsx",
+      "bytes": 1062,
+      "sha256": "197f0c0f415839b074614c98d71e384b1dd93177b8012f4fb95e4b61300cbec3"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/finance/page.tsx",
+      "bytes": 3029,
+      "sha256": "8ffb5920ba765a76cb88ece95dd58d681cc226fbab8ff353d6c189ced719b8c3"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/finance/reconciliation/page.tsx",
+      "bytes": 1002,
+      "sha256": "075bce4f4289c26344240d75aa8d386b3897760469b9492c9c77b56129200eae"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/guide/page.tsx",
+      "bytes": 7040,
+      "sha256": "81c88b45f5bb1ca9a1b13c19f15ff16c85b815424be63063f5b781de6e54c9e0"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/history/page.tsx",
+      "bytes": 5023,
+      "sha256": "57ff11d8ab3ff5296ee18792fc4b4d29d80c5e7c00874cf045fdcb1932fe0855"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/inventory/page.tsx",
+      "bytes": 362,
+      "sha256": "c19456598df3d69cabd27b668d76787ec7382b932a731d83da9a053856bdda08"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/layout.tsx",
+      "bytes": 187,
+      "sha256": "84d526f5ac8d757fc0a575e8e3ecf824381f23b80ae7c2f7c066ebcb3cbda880"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/mutations/page.tsx",
+      "bytes": 21682,
+      "sha256": "1d61876342b83a8f309ee4107695237989f65f399f081d7ab1a2d9f11b064372"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/operations/page.tsx",
+      "bytes": 1764,
+      "sha256": "43fb9f11f245042a9fb58bdb731bf564a9480ff1f550e261d0166cd8a53cea4a"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/orders/[ref]/page.tsx",
+      "bytes": 9203,
+      "sha256": "2e549b2f1fae67be237518e415d2f0eb394079da7135faf9051cca0fa97c0c4c"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/orders/new/page.tsx",
+      "bytes": 384,
+      "sha256": "380bc989dace3bd2b633e1b8a70534a93eeefe5ac6e18fb9e830f1f5ea486d3c"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/orders/page.tsx",
+      "bytes": 433,
+      "sha256": "acfb0370369a8beb8a9a023f2607e486b76d3e30aef9f62f0c626a5a72c67c4b"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/payroll/page.tsx",
+      "bytes": 11873,
+      "sha256": "3e50c93b83b7a9ea4c28e26a0faa7ed899e91aa656001fa29c872adb4d72a4f6"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/products/page.tsx",
+      "bytes": 368,
+      "sha256": "8f57ad532ade3e80caacfeea3a7ef66a1a8fc3d5c86f67486d6661f34bff964e"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/sales/page.tsx",
+      "bytes": 15110,
+      "sha256": "75daf9664d32b6ef0a2a058bddaa439d0d24425446e92ac45be22fce9bd79794"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/system/backup/page.tsx",
+      "bytes": 1078,
+      "sha256": "599f101eef97d365dd9516ed0bea53f0da90f3879d4e4cadbfd39d4e1581ff3c"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/system/page.tsx",
+      "bytes": 922,
+      "sha256": "2d1dfa189c347d5d4eadf3de6451c47e38d1d15c67fd5dd9ada9c2afff4fbc9b"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/vendors/page.tsx",
+      "bytes": 823,
+      "sha256": "72f234959c51e5bce4b8093c10d88753e87d22a13e80c99553311c799be86f1b"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/admin/workforce/page.tsx",
+      "bytes": 991,
+      "sha256": "891dc5d778a49b6104b8c01f21c6987413dd739da92b98a8421c5bf48ff47b1c"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/api/health/route.ts",
+      "bytes": 308,
+      "sha256": "2563a2da368ca30b275b8f613b7aa86da06b995ff792330dd27313c602b920c8"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/api/server-time/route.ts",
+      "bytes": 228,
+      "sha256": "c92a0e5ed228ece40c542b791136b6289905fb68461cae8b82f701b96d0bdce1"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/globals.css",
+      "bytes": 1830,
+      "sha256": "25849454ead6eb7d7f2a0dea8325759516d56a2f206449a0c3c635f5ea958a92"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/layout.tsx",
+      "bytes": 401,
+      "sha256": "160aaa3886d122ef07e2de2897d795edc57bdf0e3f288254efb75ef5b3c03f44"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/app/page.tsx",
+      "bytes": 117,
+      "sha256": "7611340c0ad1011fc2c690704a4b6333b9feb0bc6c5cc261bb84741d08babac0"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/components/admin-shell.tsx",
+      "bytes": 3875,
+      "sha256": "4213fe04e7208644a2a2fc932d091f1c6bcad785509f02cb5252bbdce97caef0"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/components/ai-assistant.tsx",
+      "bytes": 10103,
+      "sha256": "b02c6ad3e3b332ea0ffc7870fb22166b6b0b4bd01b1d38388fb53cd0a2297a2d"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/components/employee-manager.tsx",
+      "bytes": 8455,
+      "sha256": "b3b260fc7ab5227293c36920558d3fb360e76b31d3d88004b65a8075404424a4"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/components/fortnight-closing.tsx",
+      "bytes": 16366,
+      "sha256": "fe0959fe17a9ae74cbf6021a0603aa0b271431b6a1e6052d331caf30c177a674"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/components/inventory-manager.tsx",
+      "bytes": 21117,
+      "sha256": "5fbfa2819b738fd2796220a368b944dc070c01fbd3d1bdb99ee2f5e36668c935"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/components/kasbon-manager.tsx",
+      "bytes": 5198,
+      "sha256": "81553fcda74655633a662eae6b49c4f8d6c832c0e0e7c295f7658dc8a6a7a25c"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/components/kpi-card.tsx",
+      "bytes": 390,
+      "sha256": "f0bfaafa2c47415a38173439bbf2b05b7d8d5d35b384f524eb4f3663a4f4db25"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/components/mutation-edit-modal.tsx",
+      "bytes": 10060,
+      "sha256": "43c95798370f789d84b460f35826d88ebc7ba483987ca4541d0bb000b907b785"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/components/order-entry-form.tsx",
+      "bytes": 35275,
+      "sha256": "b081f253ebac773ea265f824a0cd2a9d6a02d79a7826a208cc3d084bc566272a"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/components/order-simulator.tsx",
+      "bytes": 2367,
+      "sha256": "daaf02393e4e5ed3d75ee92167593f1774e8ef74d94906f342eac72eb05c16ce"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/components/page-header.tsx",
+      "bytes": 448,
+      "sha256": "dd430f849e445b49d018dd4e48127d389733caa817d6b0f057cd829d3a183c6e"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/components/product-catalog-manager.tsx",
+      "bytes": 7804,
+      "sha256": "b7758d3929d2c68ed649d9b737d8bdc54d7df37276116e7a1552a961b64b8d3e"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/components/status-badge.tsx",
+      "bytes": 1505,
+      "sha256": "9f0f554ee0240dc7341358d549978e0a526cdc883c5a6bfa4f989e71e73e2703"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/ai-auditor.ts",
+      "bytes": 15513,
+      "sha256": "882457f984429e355c70485f92f2e73fe251b65d50dcd85a6815cd765877611f"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/date.ts",
+      "bytes": 2318,
+      "sha256": "9046fa1523ff572b02f66ff20205889c3b754b939171df6d175b5f9f503e302e"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/demo-advance-store.ts",
+      "bytes": 3873,
+      "sha256": "8f6e82b88e4138f70f510bcf1cf968b90c717214c5e96cad4f666db77bd82615"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/demo-closing-store.ts",
+      "bytes": 1842,
+      "sha256": "0053578c47108e39b3e6ea2e96259374721a2841e55739809112e37f32dede28"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/demo-employee-store.ts",
+      "bytes": 3756,
+      "sha256": "3a5ae22c2ccb68c7d73d2027558bf59ac981bebdee9b94ff6ee7f84e66c55d29"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/demo-inventory-store.ts",
+      "bytes": 9482,
+      "sha256": "f60b7cd0e4d7eebc278df6ef4d49876eb0b102a6f5a94c4c19952872c803f35e"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/demo-mutation-history-store.ts",
+      "bytes": 2115,
+      "sha256": "0f03d4cec8cce6a8f7eb35fbdc5fc1aec06414c03c47644f46a6ec513c6b2e60"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/demo-order-store.ts",
+      "bytes": 3134,
+      "sha256": "ef7db059c96e2be8e6c702c1a7844241a90163f0be8613c3fb53f44089fd8b10"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/demo-payroll-settings-store.ts",
+      "bytes": 4309,
+      "sha256": "4cdc41dc29000a136c03e5e121c1dcb94b9dd50f7030a78a42c2369393ced2ad"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/demo-period-lock-store.ts",
+      "bytes": 2402,
+      "sha256": "57ce1a0a8a6b4b62cce7a62ce20a158b87f4d1ed1848147a4cdf377ffaac539d"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/demo-product-store.ts",
+      "bytes": 4175,
+      "sha256": "431a2ce202bbb1e738276a21345479b7922f538d0f36c0cb4366769fe0cd0332"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/finance.ts",
+      "bytes": 1194,
+      "sha256": "dc8549bd600fefd125e7acbf4fd6dc587ece6ae78fa6fdb795a58d25a438d1a0"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/inventory.ts",
+      "bytes": 2270,
+      "sha256": "7af63b827c54eb7afb6d38092a547f4cee6f478a85b2797caae855f574e682fb"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/labels.ts",
+      "bytes": 1227,
+      "sha256": "3caed315ce2fa4092e9cc28f2ae4f5b5897758286302756bdbeb04349791e683"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/money.ts",
+      "bytes": 945,
+      "sha256": "aea27e7ef8334495f68966f8e228cdd5f1448e2f83fb093522b1935ada2ff7ca"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/order-allocation.ts",
+      "bytes": 783,
+      "sha256": "8b7cd4e4b74ac721e7e8db2e664a7d593bcba930489cd7803a11e222052d8434"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/order-code.ts",
+      "bytes": 1913,
+      "sha256": "b6f31b9d21d14a336100dae28072767814fad0a58df85751eee91340eddec04f"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/order-workers.ts",
+      "bytes": 2447,
+      "sha256": "87a7883c72689b116f918d756198dd0bca6fa1aebe02bf0d5005ef9bb852fe62"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/payroll-live.ts",
+      "bytes": 4880,
+      "sha256": "d301fbd36b931bef0d0851342d6cadd292db840ac7b33187a7a65bdd3eb0f628"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/payroll.ts",
+      "bytes": 986,
+      "sha256": "60f4e678c64025c013d8b3350e70a7bb3ff6ee6c10c22eff65648b72da7f19d2"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/product-catalog.ts",
+      "bytes": 668,
+      "sha256": "4e7aea8eb1a05117b54979e2f4bef3adb8da9cc95140d28f628ab6051d8137c4"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/reconciliation.ts",
+      "bytes": 980,
+      "sha256": "2fe22fe93cb33f647b81864fa2ea63ab3f093dba809dbabea63a0707b2b52761"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/sla.ts",
+      "bytes": 311,
+      "sha256": "cc9c4df7a0eb400d4e328eab602ed8c944d7f407185b4c00526edb2e5243d07e"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/spreadsheet-export.ts",
+      "bytes": 49379,
+      "sha256": "9c947f9abc35fb7611841593287c2b7c7fc12955f5c08caff081f7f032e15b2e"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/supabase/client.ts",
+      "bytes": 314,
+      "sha256": "476b28d7d6c4e9bd1456b3ce2716187e10e1e9859934a575793a1a3d6e59e72d"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/lib/supabase/server.ts",
+      "bytes": 687,
+      "sha256": "e5ee73058173c01743b815344d9ee84fabb3cbce1691b7dd33d959d0d90ea282"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/types/domain.ts",
+      "bytes": 4070,
+      "sha256": "e33899bee498431df9efa822af42c05533e026c1d76c3342dea2517a8f431722"
+    },
+    {
+      "path": "source/EvoCP_Payroll/src/types/xlsx-js-style.d.ts",
+      "bytes": 71,
+      "sha256": "552faab51f0a17ccd406b6ee6ef477e33cf234022ac5bd4da8056da373310504"
+    },
+    {
+      "path": "source/EvoCP_Payroll/supabase/migrations/202609100001_cp_ofs_foundation.sql",
+      "bytes": 3348,
+      "sha256": "423e1421f61a3ea84974c03d35e58a9a0a5ae27c3c32ce95d6a5bb24e8da501a"
+    },
+    {
+      "path": "source/EvoCP_Payroll/supabase/migrations/202609100002_cp_ofs_core.sql",
+      "bytes": 29819,
+      "sha256": "94d6cf23f51e266a1f21911a5545fdc2e7690174b8c365884f9538f6f4517bef"
+    },
+    {
+      "path": "source/EvoCP_Payroll/supabase/migrations/202609100003_cp_ofs_rls.sql",
+      "bytes": 8385,
+      "sha256": "1d885fc59f8cfff2eeb8fb0afd80194843bb1ae921df83658589e8963ef1da49"
+    },
+    {
+      "path": "source/EvoCP_Payroll/supabase/migrations/202609100004_multi_worker_order_code.sql",
+      "bytes": 4258,
+      "sha256": "d7c9f77718db8d59e71e5856e6619d1e36934ea9d49f0f4e783f0e7fb7b663bb"
+    },
+    {
+      "path": "source/EvoCP_Payroll/supabase/migrations/202609100005_order_type_inventory_stock.sql",
+      "bytes": 3793,
+      "sha256": "a1acd3b99034c2203768f3e5e357a7037fd8fa3aa13cb5418f2c22491e5fdf8b"
+    },
+    {
+      "path": "source/EvoCP_Payroll/supabase/migrations/202609100006_employee_game_catalog_region_server.sql",
+      "bytes": 13715,
+      "sha256": "4047b39f101b6cc5a59bd7340a902117848673bb340fc1fcade4b15b00e4ee1c"
+    },
+    {
+      "path": "source/EvoCP_Payroll/supabase/migrations/202609100007_payroll_status_kasbon.sql",
+      "bytes": 4620,
+      "sha256": "18ca4615ed5b482bf57d6cfaf83bd05014f4ec60a9038db8335961001d3167de"
+    },
+    {
+      "path": "source/EvoCP_Payroll/supabase/migrations/202609100008_unified_mutation_manual_closing.sql",
+      "bytes": 2415,
+      "sha256": "78e3b382f3e548d3e6ef4c27577ac3e472a62ac587cd80fa5c47b7d1dc3445ed"
+    },
+    {
+      "path": "source/EvoCP_Payroll/supabase/migrations/202609110001_add_admin_team.sql",
+      "bytes": 348,
+      "sha256": "416d7d2a37a123264ee4977601ccb4e9c69975ee4aaf9c277ecd572d0e969afe"
+    },
+    {
+      "path": "source/EvoCP_Payroll/supabase/migrations/202609110002_mutation_edit_history.sql",
+      "bytes": 1761,
+      "sha256": "5dd540a7920cfaa21df832e71f46110dd8cc9e53aa7c5534605ad00ae0456aee"
+    },
+    {
+      "path": "source/EvoCP_Payroll/supabase/migrations/202609110003_closing_datetime_edit_lock.sql",
+      "bytes": 3075,
+      "sha256": "0eae2b490f2f209e2074c97976c7d409b443bd7c0e60e646b76b875084a667fb"
+    },
+    {
+      "path": "source/EvoCP_Payroll/supabase/migrations/202609130001_add_bandar_team.sql",
+      "bytes": 327,
+      "sha256": "5a8ac0a9951a49c8878b706a30bada611b32fe3ce7f2bf661cb2d1fafe501cd2"
+    },
+    {
+      "path": "source/EvoCP_Payroll/supabase/migrations/202609130002_inventory_sold_summary.sql",
+      "bytes": 866,
+      "sha256": "0c91c12ca467b59ade4643b73f051cb374fc070bea2a053435f202753c02b323"
+    },
+    {
+      "path": "source/EvoCP_Payroll/supabase/migrations/202609130003_inventory_in_out_rate.sql",
+      "bytes": 844,
+      "sha256": "c21ff2d8519f686c997025877b22046d0cafd7ee6263fbdaee7e9813969804d6"
+    },
+    {
+      "path": "source/EvoCP_Payroll/tailwind.config.ts",
+      "bytes": 273,
+      "sha256": "01feb33c3a20e1dd7ae91b494a09745816e8efda3e9b23794cb9d5ed50a5b73e"
+    },
+    {
+      "path": "source/EvoCP_Payroll/tests/closing-lock-v0143.test.ts",
+      "bytes": 509,
+      "sha256": "33a3a591b8f4bb2bcd49e3a521ff6fad1e0fd19d5ed52ac100177e67d47d9496"
+    },
+    {
+      "path": "source/EvoCP_Payroll/tests/order-allocation.test.ts",
+      "bytes": 945,
+      "sha256": "d75932c5f037fd0e40be9519c04990dbaf6fcbae27b898c3c5df5bb3d7bf8ec1"
+    },
+    {
+      "path": "source/EvoCP_Payroll/tests/order-code.test.ts",
+      "bytes": 891,
+      "sha256": "308d7835ce19862fc61c80d68c46eb849b261157e6f972c842db84c6a7918ce4"
+    },
+    {
+      "path": "source/EvoCP_Payroll/tests/payment.test.ts",
+      "bytes": 547,
+      "sha256": "45cf454d09b80829404bfe6757663389714994ad2b89a1a0edb20e5b3770c9db"
+    },
+    {
+      "path": "source/EvoCP_Payroll/tsconfig.json",
+      "bytes": 577,
+      "sha256": "61ad61325ac819dae8e5f922dc31513dac94a6c6a03f7cb51d0dd698e708d5da"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/desktop/index.html",
+      "bytes": 348,
+      "sha256": "e011bf49f8ba47670ca800e78ab7f446132d18768fc26364aef34285eaefb213"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/desktop/src-tauri/src/main.rs",
+      "bytes": 118,
+      "sha256": "0e8584a81e22b852bd1ec80af155129f0c71f00e9e7782103725fcff2c1f6601"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/desktop/src/main.tsx",
+      "bytes": 231,
+      "sha256": "2dae0f9e6e34f4d3798f3dfdfc4afb700732eda06ef4369e51a6d83700694c64"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/desktop/src/styles.css",
+      "bytes": 4101,
+      "sha256": "5641e824ddfe3424911e790812a8c189923676f55912175f8fe05d29a1c56f1c"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/App.tsx",
+      "bytes": 13168,
+      "sha256": "c7a5f8f54144283f25c370b398c4104ccbaec66af82f6fa88bb69598c89a0326"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/index.js",
+      "bytes": 206,
+      "sha256": "2eed0ee0b06bfc0acdc68f92d1857ccc7c18940fdb96c3f605f3c5ef89149d8c"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/modules/comeplayers-play-updates/LICENSE",
+      "bytes": 1106,
+      "sha256": "fb3ca4a837f5779e83cef89b78253a8949cfb9429c340309f62d0465ec6610b4"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/modules/comeplayers-play-updates/android/src/main/java/com/comeplayers/playupdates/ComePlayersPlayUpdatesModule.kt",
+      "bytes": 6164,
+      "sha256": "f3a04481a51e202806a0a75692083efa312e3c92f59a8fb38e11d1c9f8d41c08"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/modules/comeplayers-play-updates/index.ts",
+      "bytes": 275,
+      "sha256": "80694c4b6014d040d935e400f20e69e50f2e5ec1e22176fe690864fc221e2636"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/modules/comeplayers-play-updates/src/ComePlayersPlayUpdates.types.ts",
+      "bytes": 304,
+      "sha256": "cf6aa4c23a6d62c426dad1d3ed762cddaa56236af185ffc24d287daef9c0a343"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/modules/comeplayers-play-updates/src/ComePlayersPlayUpdatesModule.ts",
+      "bytes": 373,
+      "sha256": "fdb648df89db289ab008f49d4792ea19e8ff7a5a015d3545eddd332b3196b254"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/modules/comeplayers-play-updates/src/ComePlayersPlayUpdatesModule.web.ts",
+      "bytes": 21,
+      "sha256": "fabf6997a3adf11e45d11e3c4d58d0634ab98f9d72f3116f3694123818ccd457"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/AccountSessionGuard.tsx",
+      "bytes": 1510,
+      "sha256": "1ed07ff24bda0084be98a0d7de4fb2b9faa7593b3624013ae42f811a9d0d1d06"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/CallProvider.tsx",
+      "bytes": 7391,
+      "sha256": "aca6ad9b3418cb213708e784fe8cbe33f9c67373cba9ada3c9d59cf09cff56c4"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/CommerceProvider.tsx",
+      "bytes": 3516,
+      "sha256": "b7768b5833387b9593412640684f91da58c400246b0e1bee93723d147d520a2c"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/InboxProvider.tsx",
+      "bytes": 3863,
+      "sha256": "8155f0673431c8da9a52858235f481e207f476f2acb242c288afb5bc3d14aa1b"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/MessageAlerts.tsx",
+      "bytes": 2902,
+      "sha256": "9ec28dd60053f5151809b9e6f7e49660dd9f3daca83c4a5d50eedc88a345468f"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/ProductImage.tsx",
+      "bytes": 1253,
+      "sha256": "78a9700d135822d696214a38574ceea9e2386689651025390c74756610452974"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/accountSessionMonitor.ts",
+      "bytes": 1688,
+      "sha256": "79e30a65975f43a9ef9cda15acc803a94b96d0797dca94d9e74a5b4e294d796b"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/api.ts",
+      "bytes": 7079,
+      "sha256": "fde96b5fd86637a821b127eaccc89109624f7cc8361373c6e3526bc8a290a201"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/authTransport.ts",
+      "bytes": 1369,
+      "sha256": "9c6209a5cd9e32abe3a2898fa8ddbe2bbaf5e205ffd9ef2cdb2ad05d635e5427"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/commerceApi.ts",
+      "bytes": 3918,
+      "sha256": "53c2b2950ae1911ef7896b691dac2259f9d339071e6916bd4a133b73cf7db130"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/commercePolicy.ts",
+      "bytes": 2794,
+      "sha256": "9a222f39e96a745e788065fcb09be27029502f141bece04c1ca896033af89db4"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/components.tsx",
+      "bytes": 11747,
+      "sha256": "b1bc8e8ca069da3b6ba68e5b3823f24789ae7b1961d982635589b0069a9209c4"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/googleAuth.ts",
+      "bytes": 1575,
+      "sha256": "787eadb7288856612a74c57a765956ea7586e00646ef3bc0ee3d491cb833c94d"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/messagingApi.ts",
+      "bytes": 2825,
+      "sha256": "823ddc084ae7060dace78414569ec124633a4e60d7d1fd95e7ce8e48ca1f8f0c"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/AccountSettings.tsx",
+      "bytes": 17082,
+      "sha256": "2a6d387313a31dd99608244ba51a107e32ef845625d1d3db8eca91d41644cf5f"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/CallsScreen.tsx",
+      "bytes": 8745,
+      "sha256": "6355e1dca61edb5367a612f7604d3d5a5dae7fbe539c5b2801cbc1f4b9896ec2"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/ChatMedia.tsx",
+      "bytes": 7252,
+      "sha256": "78d4f2768b3ac57b7420bcda6bfc46cdd47d25ed4377aa8a4ed3f0611b7e5c43"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/CheckoutSheet.tsx",
+      "bytes": 4399,
+      "sha256": "783f4a16bb0cdcf8a8673bcbae7ca39f24081dc939fbe4c9f3ebf1105c058619"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/CommerceUI.tsx",
+      "bytes": 4680,
+      "sha256": "23937e77a6c7c6bfb68386976c84fc646953c0e6f8cef92602b8af52085afa62"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/CommunityScreen.tsx",
+      "bytes": 32492,
+      "sha256": "5c345ed31196f9b109d5ca51daeab61abddf5e0992cba461c8f597a29e5206ba"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/ContactsSheet.tsx",
+      "bytes": 7503,
+      "sha256": "2d8236fabbb452dd45ebc32c5a57475417907babe08b656136a63f94201cc23c"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/ConversationScreen.tsx",
+      "bytes": 30271,
+      "sha256": "e4ec1e210b3e99a02b3187d9c0e768eed67fbf261a067a797c602380ca2b92d0"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/DirectCallScreen.tsx",
+      "bytes": 7830,
+      "sha256": "415e3255649caf40ea038ed8a3772a37359e922d622ab79efe67f1f195a4fa57"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/HomeScreen.tsx",
+      "bytes": 10019,
+      "sha256": "aff6ca465c03a155c7a392e76d70cc6b932ef5b4ebb340f45d0c3a19f45bf772"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/MarketplaceScreen.tsx",
+      "bytes": 10978,
+      "sha256": "763a3b777732855460b76625c8ee4439069597327d265c7ef6714018e230522d"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/MessageToolsScreen.tsx",
+      "bytes": 4974,
+      "sha256": "22859acd4aa943a6cb12c7d07de4cc4494693cd109ca2843decb7462e1d8bb27"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/MessagesScreen.tsx",
+      "bytes": 14856,
+      "sha256": "b7d2935504eba1164526844cea52e27833863d352dd37f4eddba589097af0d97"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/MfaChallenge.tsx",
+      "bytes": 2086,
+      "sha256": "81091d14ebbdb5cac2c04b6ec6cbd2f94c6a36e0c951a39b6336a3eb823ee5ea"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/NewsScreen.tsx",
+      "bytes": 4544,
+      "sha256": "b08e21fe3578de73ec7feb0dd51c7c189a78b62708f9b4aff14ff796159819e0"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/PasskeyRecoverySettings.tsx",
+      "bytes": 4438,
+      "sha256": "06b1849b4713dc40f490485028737a2d647898d39ffaec883b589b612146a83d"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/PrivateBackupSettings.tsx",
+      "bytes": 10084,
+      "sha256": "1b3669de2551bd47ad01778795d221affbd3d005c8fee17912cd1bf30de1a82d"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/PrivateConversationScreen.tsx",
+      "bytes": 22220,
+      "sha256": "ddf567ce10f30560964fc37f4d1991d8de6f41cdad25609ef8ecf32711c872f6"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/ProfileCommerce.tsx",
+      "bytes": 6372,
+      "sha256": "23f398f068d53e5d82dcb0b4746ff54dd435ff8929f71f58539ca722ca11592b"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/ProfileScreen.tsx",
+      "bytes": 16292,
+      "sha256": "20c20798f8573add995b7f22719d609a4a2740202f2e80701b4a4d4a19919d56"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/StatusScreen.tsx",
+      "bytes": 10439,
+      "sha256": "ed629393c39114c1dca22722897b4338c9c4647978134c0f230b491d3ad42575"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/VoiceLobby.tsx",
+      "bytes": 9389,
+      "sha256": "99de5bc85e27c75eab8b8fe3c23e54d0c71388fc6155487c08fc882969f65532"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/screens/WalletScreen.tsx",
+      "bytes": 8811,
+      "sha256": "826faf74e9ccc2bd9e4554ce4e61a0fac55d6767d05def3541de92e542efc25d"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/PrivateMediaEncryption.ts",
+      "bytes": 6892,
+      "sha256": "99d0045a12d9d26a357aad4d30845989f527e542c6991207b5c71d4779aa3369"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/PrivateProvider.tsx",
+      "bytes": 6367,
+      "sha256": "68945360a1b69df049b9ee7e71e8f821731ce7b0adf6c1c81e4efd09306a568d"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/SecureDeviceSetup.tsx",
+      "bytes": 5055,
+      "sha256": "057da13dc59e2a01255e804665dd539940c46abcef4b3550267f00b4ba070e6d"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/accountRecovery.ts",
+      "bytes": 4583,
+      "sha256": "1bd25dd5477fd4532ee5553b747215eeaf649f1319fc94eaafa841e988c642c6"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/backup.ts",
+      "bytes": 5337,
+      "sha256": "7e74e663fb76113a10541947cda97e8470d0688798631b424903bcf9f0438e0e"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/backupCancellation.ts",
+      "bytes": 274,
+      "sha256": "f956ba5f131b97b8ecfc021b03fd6be63bde72f86da0aa1582c80d64e0b4c8aa"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/backupFormat.ts",
+      "bytes": 2551,
+      "sha256": "0d09e5f1b49497413c698d1c2902e437d3406f86f33d52102a97f00b41765c68"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/backupRecoveryGuard.ts",
+      "bytes": 1589,
+      "sha256": "538abd2b190f8ddf78dda1e4720149e227c66f2c72e3e009465e11005acdcf70"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/boundedDownload.ts",
+      "bytes": 1239,
+      "sha256": "c0a3397bc2a05431cdde79bfd517aa0bc178ad3858d9f6ac983a073114b9f01d"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/crypto.ts",
+      "bytes": 6712,
+      "sha256": "b7101e0ee4f025b41cb093a11d938c26d416ea714e54f389b48ac9d045b02f1b"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/driveBackupPreference.ts",
+      "bytes": 4590,
+      "sha256": "ab65f54dba2ced401540758c0bc96de16f21398dec04a55151a1890b34f9fc09"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/driveBackupTransport.ts",
+      "bytes": 4535,
+      "sha256": "2a37d2d8a78b53e7e75228f0cb7ba10e1fe8e7340c413796418361b4c5321578"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/googleDriveBackup.ts",
+      "bytes": 2301,
+      "sha256": "97b88752b233cd30d0c19dc43e78533b0a10584e7fb815098264bd07510b5dca"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/mediaStore.ts",
+      "bytes": 4062,
+      "sha256": "76b65e40c8f3d43a416585bb232363a803efcf3699ea74cfae747c6fec96dbfa"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/messenger.ts",
+      "bytes": 23027,
+      "sha256": "7824f5760afd69c903db0785056b5724837fb74ce3e7785c5491bd51fb5291f8"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/mobileSecureTransport.ts",
+      "bytes": 562,
+      "sha256": "e8650fca80156ba914d26d267dcd6017bc666539a71c5100f025ba92587ec590"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/multiDevice.ts",
+      "bytes": 22787,
+      "sha256": "75df73ae6968cc82b15503afe69b55577afe0eaf4da0732457f4586108b50831"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/nativePasskey.ts",
+      "bytes": 2482,
+      "sha256": "6e7fe0eb6aeefe0f560e62471b0f1035ea9178048047b6b023767de82711ac25"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/nativeRecoveryPolicy.ts",
+      "bytes": 3176,
+      "sha256": "5370328111e47d322d2eed9797c3e67a1cc7ee2ea9331c45d2f886db59e6907e"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/passkeyProvider.ts",
+      "bytes": 2261,
+      "sha256": "8260b280d3246e8d45a04ec4ba6fda99968f19bcdee9385a007be26a7b6ef8a4"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/random.ts",
+      "bytes": 382,
+      "sha256": "1c6df2e8ea59b248ab538a7a93bbe8da5a6fde394835878bcfc8566d9f0e7552"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/recoveryPolicy.ts",
+      "bytes": 3756,
+      "sha256": "a00e13772bcc7e2e1a7f47e3835b0e0a6ad3eefa2bb6dde33ded322af4f7df51"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/restoreMerge.ts",
+      "bytes": 1418,
+      "sha256": "ab89d4d816148009da9ef9ef2e9ef40b2e799dc9d2e881b5b5c5175392e42a65"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/secureAttachment.ts",
+      "bytes": 3184,
+      "sha256": "b2a745e6197e9b9eb92c065c8e4be873d47ed931c506e04625e8474a846cabb5"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/secureHistorySync.ts",
+      "bytes": 19063,
+      "sha256": "628d6021110305a0b7af1afcf2e49f95390af09ba5ea0b3a7ca5f71769df4d25"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/secureMessengerV2.ts",
+      "bytes": 22004,
+      "sha256": "7160dfba71663e3f7a8e3b3caf40a2b7659a177dc86a937d0c9876723ee526fc"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/secureSetup.ts",
+      "bytes": 4955,
+      "sha256": "d7c179d5e9ec363895b5399aab96736b9831febd3e780718e8d922c8639d0b83"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/vault.ts",
+      "bytes": 6783,
+      "sha256": "f294f4abddc38a705d5bc2ca6a917240206ed91a14febd8ee68bb549a865eb14"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/verifiedBackup.ts",
+      "bytes": 6165,
+      "sha256": "ea1131da707f7c4d5f86808f1bf1d685527cd9317ad88fe278b1b86db0d6212b"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/verifiedBackupRecords.ts",
+      "bytes": 2180,
+      "sha256": "b34cfda7b914d2fb83c85075d4670ac5d6b680ddf5b7c6eb0ee66925cbb4ddc6"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/secure/verifiedVault.ts",
+      "bytes": 9118,
+      "sha256": "db3e37419a81e7774fd72fd8cd070b3888c60434760c225ceb639dc7b502ba63"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/theme.ts",
+      "bytes": 766,
+      "sha256": "e38e6e088161adecba0a80d953990b01402064e9b7a6e43e4d4f7ec8624781a6"
+    },
+    {
+      "path": "source/comeplayers-apps/apps/mobile/src/types.ts",
+      "bytes": 4170,
+      "sha256": "923e4e8055d2a8053ba61d7e58dcf88bdffe4273666a26185a82f8a7e966b9ed"
+    },
+    {
+      "path": "source/comeplayers-apps/packages/chat-core/src/client.ts",
+      "bytes": 9952,
+      "sha256": "551023a33abad3e738c33abbbb034bda2d6c9fd95ffd729513524f1091184582"
+    },
+    {
+      "path": "source/comeplayers-apps/packages/chat-core/src/index.ts",
+      "bytes": 81,
+      "sha256": "e7afa4c7c66ea99a00561779ba12071f3f84694783a0401899039ca202724939"
+    },
+    {
+      "path": "source/comeplayers-apps/packages/chat-core/src/streaming.ts",
+      "bytes": 1535,
+      "sha256": "c999d97db96fcfd9e4d2dc83a0a7dff81c4ef8de485f39239a9266fbcfa51dc8"
+    },
+    {
+      "path": "source/comeplayers-apps/packages/chat-core/src/types.ts",
+      "bytes": 8076,
+      "sha256": "e5577fdf9b9cdc546f1928fa5c06c85f5dd97737dd193e8957b3b21024a5ae86"
+    },
+    {
+      "path": "source/tools/comeplayers-loker-extension/bridge.js",
+      "bytes": 1555,
+      "sha256": "c6faccf41ec68c8f0905a5641648ea37ecb663a352f65ecab13afdcb4cd5c0ec"
+    },
+    {
+      "path": "source/tools/comeplayers-loker-extension/facebook.js",
+      "bytes": 14212,
+      "sha256": "612977d5287a84691921554af34f20e6a95ddda6bb1a992c707249f146f18264"
+    },
+    {
+      "path": "source/tools/comeplayers-loker-extension/popup.css",
+      "bytes": 426,
+      "sha256": "7a16af77370884c0cd37e828a17d2eb996be142b4756cfa0a068c42965dd6095"
+    },
+    {
+      "path": "source/tools/comeplayers-loker-extension/popup.html",
+      "bytes": 810,
+      "sha256": "9b255b4098671200624622af159a83881d2c7e8d925952f21131141bfa2db909"
+    },
+    {
+      "path": "source/website/components/arcade/cpFrontlineEngine.ts",
+      "bytes": 31437,
+      "sha256": "f0a0e8ff9c590846329fa12789761b764489da6d94fcda498f2bcd0d1725a3f9"
+    },
+    {
+      "path": "source/website/lib/cpFrontline.ts",
+      "bytes": 12477,
+      "sha256": "362fbc46a3f403b87c02dc219cf2894363b8d394eb3a501d8e99d51eeb56167d"
+    },
+    {
+      "path": "source/game-services/empires-allies/battle_engine.py",
+      "bytes": 64998,
+      "sha256": "b122b1cd78a0a14300407b3f5ff0c852400642d14304bd8db2519d18855896c7"
+    },
+    {
+      "path": "source/game-services/empires-allies/game_settings.py",
+      "bytes": 11163,
+      "sha256": "15f9af9e0eda563822723c1f0246407a1ccc1d05068e99297652f627a8da5a4f"
+    },
+    {
+      "path": "source/game-services/empires-allies/init_settings.py",
+      "bytes": 1400,
+      "sha256": "ddef9e9158132dacc8992d6e9c23e5f8ad911d31c91d71672bd95611f5ea38ec"
+    },
+    {
+      "path": "source/game-services/empires-allies/language_settings.py",
+      "bytes": 292,
+      "sha256": "903984c9a1bb6a5c23cf84df18de71b2c35228421ea270b745b23408a751ae3b"
+    },
+    {
+      "path": "source/game-services/empires-allies/logger.py",
+      "bytes": 2852,
+      "sha256": "65e8bc1bb558524611a958afa54e3402e9b11e9f3f8a4f4dcdd8e39ea70786a7"
+    },
+    {
+      "path": "source/game-services/empires-allies/mod_engine.py",
+      "bytes": 6349,
+      "sha256": "b1e64a5c92235975f77a180a4991cff782d4bdb52f27170b4da9903f708d7958"
+    },
+    {
+      "path": "source/game-services/empires-allies/quest_engine.py",
+      "bytes": 33004,
+      "sha256": "3a83d3a3c2e69d4fe84e9baef1472dbedb397f8cffac46eb4d273d9932d72ca3"
+    },
+    {
+      "path": "source/game-services/empires-allies/quest_settings.py",
+      "bytes": 1628,
+      "sha256": "b88131bf838e1572b5f506d5e25dd96e40154af0fb73ee9bd387f604d3299029"
+    },
+    {
+      "path": "source/game-services/empires-allies/save_engine.py",
+      "bytes": 8159,
+      "sha256": "df9341c0c4b093a50443f258300433efd0a74f9df2be614ef2af9cdde69c9f1d"
+    },
+    {
+      "path": "source/game-services/empires-allies/save_migration.py",
+      "bytes": 4982,
+      "sha256": "1ef835067087145e9f16458ae43aa03ee6cd0ffb467d85c6792dc8f78ae5cce5"
+    },
+    {
+      "path": "source/game-services/empires-allies/state_machine.py",
+      "bytes": 17706,
+      "sha256": "b4594d243aa04ce78d66dccc0042981c27059f3fe3209906d57677437535027a"
+    },
+    {
+      "path": "source/game-services/empires-allies/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "source/game-services/empires-allies/requirements.txt",
+      "bytes": 365,
+      "sha256": "a2a215df613e21c6ab36281a0609658395563c282ac8b1a1cf50d1bbac8dbfd4"
+    },
+    {
+      "path": "source/game-services/empires-allies/requirements-comeplayers.txt",
+      "bytes": 389,
+      "sha256": "74fb4fc9295b2ba2f9d8307df979047395d29d96436bddbf7f81c7a6fe809669"
+    }
+  ]
+}

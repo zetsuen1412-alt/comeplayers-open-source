@@ -1,0 +1,317 @@
+{
+  "status": "Clean source candidate; original ComePlayers code MIT; third-party notices preserved",
+  "count": 62,
+  "bytes": 499132,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 88,
+      "sha256": "dfba94e11633732861be6c303e9e8c8eafcb483dc346c2c8526d488e677e1e48"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1373,
+      "sha256": "36300b788d6068de94b184edde83e681741e231bc589b2a196e59b67e97f1b48"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2191,
+      "sha256": "439b20ec3fdfe17de41c6f91cb52feedc71aff9c40e794e6088a14267a9f17e2"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1864,
+      "sha256": "a4421b96f710d5f1bda295ac92386265b6856cd51d8722e5011cfe914d9cc3ab"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES_STRIKE.md",
+      "bytes": 1560,
+      "sha256": "dd46807e8b9f4085232445c9c6af7f1ebeb18a434ce85f5c1eb23dcfcfd4981c"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 1059,
+      "sha256": "2d504d7a03d11837b03107cad3925e7d95f5e6ad6fc2a7f156957c21451bcea5"
+    },
+    {
+      "path": "app/games/ArcadeGameTypes.ts",
+      "bytes": 87,
+      "sha256": "7ae23091adad84ff237692ed75622434abfc9d8f1a7787bf90d18f4a1a21391f"
+    },
+    {
+      "path": "app/games/arrow/ComePlayersArcade.module.css",
+      "bytes": 9303,
+      "sha256": "749596b4e791ec2fd8a66a38f71ed2b9a07be23e3f252777852b09a07b73c756"
+    },
+    {
+      "path": "app/games/arrow/ComePlayersArcade.tsx",
+      "bytes": 34910,
+      "sha256": "3e835483260442e3708038ec928c6f413efc006efc8a30e5564a8813f806b986"
+    },
+    {
+      "path": "app/games/arrow/page.tsx",
+      "bytes": 151,
+      "sha256": "6767ab1b0e64e905e686fbb2fb90f09a022c5d258fe97a56add1a6328c24fa30"
+    },
+    {
+      "path": "app/games/match/ComePlayersMatchGame.module.css",
+      "bytes": 19971,
+      "sha256": "658975effd85208779e5336cc2447259329f4b1db3dfb5ceb4a273bba10c1ebe"
+    },
+    {
+      "path": "app/games/match/ComePlayersMatchGame.tsx",
+      "bytes": 38548,
+      "sha256": "0655b67756aca9cc7c7be7b74f547267229b74238dbfd032b0251b8367e84f54"
+    },
+    {
+      "path": "app/games/match/page.tsx",
+      "bytes": 274,
+      "sha256": "5a373bd8def6e0c376c7490200683c4ef3c88d1060dd7e3c687a3e0c80f621c0"
+    },
+    {
+      "path": "app/games/monopoly/ComePlayersMarbleGame.tsx",
+      "bytes": 66421,
+      "sha256": "12f2905a9b80ba0d619cc3829c8e1fed12f2f58415bd3a62127df161ca27db79"
+    },
+    {
+      "path": "app/games/monopoly/monopoly.module.css",
+      "bytes": 45266,
+      "sha256": "473cc532b1a2eaa50ba569cccce45c99f4fa5f20962b6a5a50c76356048f7cb2"
+    },
+    {
+      "path": "app/games/monopoly/page.tsx",
+      "bytes": 634,
+      "sha256": "6bbf0330c3ce1c88471fd0115e699a29a60c2c9feda4893e0e6dc20f1a67ba88"
+    },
+    {
+      "path": "app/games/strike/ComePlayersStrike.tsx",
+      "bytes": 40569,
+      "sha256": "bb7aafdfa0330fa2344a60af5875c41faa3af298466d0c620feec4a24e3d54e8"
+    },
+    {
+      "path": "app/games/strike/StrikeGame.ts",
+      "bytes": 112764,
+      "sha256": "fb79b39e965053a07e81d9afaba50a9d8c0c82cfd381a3264f38b424550d2b9c"
+    },
+    {
+      "path": "app/games/strike/page.tsx",
+      "bytes": 247,
+      "sha256": "f6c054bd59d0aa974178497923cc38b4b7ae3e9348c6fb1498aca95fe2967a25"
+    },
+    {
+      "path": "app/games/strike/strike.module.css",
+      "bytes": 55554,
+      "sha256": "80800b25e28caffa07bbf7e59a2e2e6cbee7b25d396b184295365483f6964127"
+    },
+    {
+      "path": "app/globals.css",
+      "bytes": 415,
+      "sha256": "2a2e6510f2d2181d438b0838fd49b4f8b28108a0eb337b69c58b61b457e5544f"
+    },
+    {
+      "path": "app/layout.tsx",
+      "bytes": 201,
+      "sha256": "01a7e9517ed4007dc92a077e21faa264780ae74740aca1e20d6067bb164bb5ac"
+    },
+    {
+      "path": "app/page.tsx",
+      "bytes": 510,
+      "sha256": "65b614525f383cb3f9ee5e62c581928cc2a5fafd1a3b9a12ce8aa65712e83249"
+    },
+    {
+      "path": "next-env.d.ts",
+      "bytes": 288,
+      "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 36603,
+      "sha256": "71e394b7e0127c4f4b4f4ecf91b8e2ccb9230a0964d2f82d550cb054390ca7eb"
+    },
+    {
+      "path": "package.json",
+      "bytes": 605,
+      "sha256": "6dcf7cc6e82136e59736e629001c054241fc24c4b938c725ec56476b8dba59d3"
+    },
+    {
+      "path": "public/avatars/alexia.svg",
+      "bytes": 320,
+      "sha256": "2f57822ba355376584dafe4cf19cbe68c2da5a8d9915c7544d1ec3825575a79c"
+    },
+    {
+      "path": "public/avatars/miko.svg",
+      "bytes": 320,
+      "sha256": "3aad059d43e78e494ecb8f2c41ac3565abb91b0c359ac7bc96bf8fcf83951b96"
+    },
+    {
+      "path": "public/avatars/nova.svg",
+      "bytes": 320,
+      "sha256": "5807c345751326cc624176aae0b145f1d2199ba1707c5a18e396d1e9ad02f88c"
+    },
+    {
+      "path": "public/avatars/rex.svg",
+      "bytes": 320,
+      "sha256": "cfb0e177f09a36ffc46fbda23937ba6f487a561fc68408d924b9751c6f13cac6"
+    },
+    {
+      "path": "public/brand.svg",
+      "bytes": 321,
+      "sha256": "575e398ef3d4dbe8072baa2b3842b2125dca3e69f12340dc37d9cce6b94e303a"
+    },
+    {
+      "path": "public/placeholders/alexia-archer.svg",
+      "bytes": 502,
+      "sha256": "6d4cf3d475421c19b53c8ae714c6cecb8019d20f1d372fe37e27b56486e748c4"
+    },
+    {
+      "path": "public/placeholders/alexia-host.svg",
+      "bytes": 500,
+      "sha256": "679347e1c234717be386d2fd2259844e7f2962a9859f647f698d2fc098743f6d"
+    },
+    {
+      "path": "public/placeholders/alexia-operator-cutout.svg",
+      "bytes": 511,
+      "sha256": "2293eb3d3e1da625ac2bff148b3d478e0a85a416bf2a9afd3d7d7a5618b1161c"
+    },
+    {
+      "path": "public/placeholders/comeplayers-strike-gameplay.svg",
+      "bytes": 516,
+      "sha256": "286063a11b4d8c5975e0713e338f7eed8cd8bb976db3d75125cded2e9617b4b2"
+    },
+    {
+      "path": "public/placeholders/comeplayers-strike-menu.svg",
+      "bytes": 512,
+      "sha256": "cf10205da17bace07385d506477c8a2b8e73dafd619e79737d914e5b92fda11c"
+    },
+    {
+      "path": "public/placeholders/comeplayers-strike-results.svg",
+      "bytes": 515,
+      "sha256": "6b60c6acd56c9c4a128b2a7f878592c1afa35b42780c169d8fd4e7d51e9f506b"
+    },
+    {
+      "path": "public/placeholders/cp47-weapon.svg",
+      "bytes": 500,
+      "sha256": "2d31b9c32dfbdf0c06c5ad6f071f6f9276f90b2ad8dbe036caf6c84458a54924"
+    },
+    {
+      "path": "public/placeholders/map-blacksite.svg",
+      "bytes": 502,
+      "sha256": "b973fce4bab55480b0c2e6d940260dc2f674aa524e64082fb1a52f9a1b6bd3fa"
+    },
+    {
+      "path": "public/placeholders/map-dockyard.svg",
+      "bytes": 501,
+      "sha256": "29aabf0ec6feebf02ddcc55bdce97edffe44ca29484db1a68b48eeb46df53fcf"
+    },
+    {
+      "path": "public/placeholders/map-metro.svg",
+      "bytes": 498,
+      "sha256": "ec7d9bb9f0df0a513212a641280a62da71f8327441eee9b51a46a3d81724a238"
+    },
+    {
+      "path": "public/placeholders/map-outpost.svg",
+      "bytes": 500,
+      "sha256": "0d5b6b3894d771c56003956bf6772c09ca4e294fc66c917d272077e90e5b911e"
+    },
+    {
+      "path": "public/placeholders/map-skyline.svg",
+      "bytes": 500,
+      "sha256": "1c1aeb8b894861fd86a0939f2ed3846615c26a73188a4018a656394232ac10a4"
+    },
+    {
+      "path": "public/placeholders/mode-adventure.svg",
+      "bytes": 503,
+      "sha256": "9962bc7ac6bf45d140c58bf356e75409fab3afb7f9f93864be0784c6a98e906c"
+    },
+    {
+      "path": "public/placeholders/mode-bomb.svg",
+      "bytes": 498,
+      "sha256": "48f5d66871f69e7272c3f095d0bce6beccd3c8c585d53aeb7e74bd5e077cb8cd"
+    },
+    {
+      "path": "public/placeholders/mode-ffa.svg",
+      "bytes": 497,
+      "sha256": "b25216c1ec330a7b05a592b5890b5114a1337d91bfeb023807781ec33ecdbac7"
+    },
+    {
+      "path": "public/placeholders/mode-tdm.svg",
+      "bytes": 497,
+      "sha256": "cdafbb2ae85359e978e71965fb80b7a48fc5fd0451b0e8d65b72e49435efe22e"
+    },
+    {
+      "path": "public/placeholders/mode-zombie.svg",
+      "bytes": 500,
+      "sha256": "a31eb0511a9762b48f8943fd70054421a31154ab6ee937d15dcb516b910201f3"
+    },
+    {
+      "path": "public/placeholders/operator-alexia.svg",
+      "bytes": 504,
+      "sha256": "b1d473b55ea60b60b001fa144571c89f4b5be9473ce3e049e47bb4320c136f16"
+    },
+    {
+      "path": "public/placeholders/operator-blaze.svg",
+      "bytes": 503,
+      "sha256": "f3b325ba12c5e1131fd9461c97a0364c70c0a3f83aceddba65adffbf8ae53926"
+    },
+    {
+      "path": "public/placeholders/operator-cybernova.svg",
+      "bytes": 507,
+      "sha256": "9e43d2abf785a4cbb46d9805f47ca74244da0d4abefd58621b858c917be775f5"
+    },
+    {
+      "path": "public/placeholders/operator-raven.svg",
+      "bytes": 503,
+      "sha256": "4e3680ed61f95e243793cc648755b9bcaf95dffa33b1ac48c461a1206809f8d7"
+    },
+    {
+      "path": "public/placeholders/operator-shadow.svg",
+      "bytes": 504,
+      "sha256": "f0d6faf803e9783d538eeea38b99ee8cd3da3e53b70fa9ca5cc3b186431cd2db"
+    },
+    {
+      "path": "public/placeholders/strike-ui-home.svg",
+      "bytes": 503,
+      "sha256": "87b4bfa4bba04f3dbee3537272fe8e6d996d02590a0edd275756687576049a16"
+    },
+    {
+      "path": "tests/additional-games.test.mjs",
+      "bytes": 1778,
+      "sha256": "2bf58caa7e29e6c523ce97210407121ca8b5e7c20d7b969a1195f93fa5cef1d1"
+    },
+    {
+      "path": "tests/extraction.test.mjs",
+      "bytes": 2938,
+      "sha256": "b77fe0f9896bc38c9a8ac6ff442f51a2dbcf6f846c477d580807bfd76781a357"
+    },
+    {
+      "path": "third-party-licenses/next-16.3.6.txt",
+      "bytes": 1079,
+      "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224"
+    },
+    {
+      "path": "third-party-licenses/react-19.2.4.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "third-party-licenses/react-dom-19.2.4.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "third-party-licenses/react-icons-5.6.0.txt",
+      "bytes": 4807,
+      "sha256": "a0c1e5484fb4c79e2a683834253864e640e1ca57cb57b807bd5bddb72bbbf74f"
+    },
+    {
+      "path": "third-party-licenses/three-0.185.1.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 640,
+      "sha256": "bb9111c538302c0926295998a44bc3923e71397c8539d051d795da81f4021ec1"
+    }
+  ]
+}
